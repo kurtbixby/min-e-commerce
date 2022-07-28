@@ -4,7 +4,7 @@
 - [X] Product
 - [X] Product Tag
 - [X] Tag
-- [ ] Relationships (index.js)
+- [X] Relationships (index.js)
 
 ## Routes
 
