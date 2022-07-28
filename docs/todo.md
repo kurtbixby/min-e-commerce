@@ -1,9 +1,9 @@
 ## Models
 
-- [ ] Category
-- [ ] Product
-- [ ] Product Tag
-- [ ] Tag
+- [X] Category
+- [X] Product
+- [X] Product Tag
+- [X] Tag
 - [ ] Relationships (index.js)
 
 ## Routes
