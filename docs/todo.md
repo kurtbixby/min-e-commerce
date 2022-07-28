@@ -32,4 +32,4 @@
 
 ## Misc.
 
-- [ ] Sync Sequelize with DB on start
+- [X] Sync Sequelize with DB on start
