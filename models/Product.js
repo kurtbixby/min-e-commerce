@@ -28,13 +28,6 @@ Product.init(
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    categoryId: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: Category,
-        key: 'id',
-      }
     }
   },
   {
