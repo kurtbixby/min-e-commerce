@@ -33,7 +33,7 @@
 ## Misc.
 
 - [X] Sync Sequelize with DB on start
-- [ ] Ask about creating nested objects in PUT and POST routes
-- [ ] Input Validation as described in the models
+- [X] Ask about creating nested objects in PUT and POST routes
+- [X] Input Validation as described in the models
   *  Product stock isNumeric
   *  Product price isDecimal
