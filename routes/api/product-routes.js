@@ -63,14 +63,15 @@ router.post('/', async (req, res) => {
  try {
     const product = await Product.create(req.body);
     if (req.body.tagIds.length) {
-      const productTagIdArr = req.body.tagIds.map((tag_id) => {
+      const productTagIdArr = req.body.tagIds.map((tagId) => {
         return {
-          product_id: product.id,
-          tag_id,
+          productId: product.id,
+          tagId,
         };
       });
       const productTagIds = await ProductTag.bulkCreate(productTagIdArr);
       res.status(200).json(productTagIds)
+      return;
     }
 
     // if no product tags, just respond
